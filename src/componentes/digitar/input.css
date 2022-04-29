@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono&display=swap');
+.container-input{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    
+    flex-direction: column;
+    background: linear-gradient(to right, rgb(29, 21, 102), rgb(79, 90, 150));
+}
+.input{
+    color: rgb(240, 233, 233);
+    width: 400px;
+    outline:none;
+    height: 80px;
+    background: rgb(53, 63, 110);
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+}
+.butao-input{
+    width: 200px;
+    height:35px;
+    border:none;
+    font-family: 'Roboto Mono', monospace;
+    background: linear-gradient(to right, rgb(22, 21, 21), rgb(231, 76, 60));
+    color: white;
+    border-radius: 2px;
+    margin-top:15px;
+
+    cursor:pointer;
+    border-radius: 10px;
+}
+
+.conteudo-digitado{
+    width: 800px;
+    height: 200px;
+    background:rgb(3, 3, 3);
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+    transition: 0.2s;
+    font-size:144px;
+    letter-spacing: 5px;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 10px;
+  
+    
+}
+
+.corMarquee{
+    animation:  neonx 5s alternate infinite ease-in-out;
+    width: inherit;
+    align-items: center;
+    display:flex;
+    transition:0.2s;
+}
+.background-font{
+    color:white;
+
+    
+
+}
+.background-color{
+    color:white;
+    border: none;
+    
+
+}
+
+
+@keyframes neonx {
+    from{
+        filter: drop-shadow(2px 5px 5px #ff3366);
+        transition:0.2s;
+    }
+    to{
+        filter: drop-shadow(2px -5px 5px #34e21d); 
+        transition:0.2s;
+    }
+   
+}
