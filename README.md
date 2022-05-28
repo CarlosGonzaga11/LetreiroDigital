@@ -5,9 +5,6 @@
 > :rocket: Simulação de letreiro digital com React
 
 
-<div align="center">
-   <p>Acessar por:  <a href="https://digital-signboard.vercel.app" target="_blank">digital-signboard.vercel.app</p>  
-</div> 
 # :pushpin: Conteúdo
 
 * [Tecnologias](#computer-Tecnologias)
@@ -40,5 +37,5 @@ Released in 2022 :closed_book: License
 
 ---
 
-Made with love by [Carlos Gonzaga](https://github.com/LeoGonzaga) 🚀.
+Made with love by [Carlos Gonzaga] 🚀.
 This project is under the [MIT license](./LICENSE).
